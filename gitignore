@@ -1,0 +1,40 @@
+# ── PHI / data — NEVER commit ────────────────────────────────────────────────
+*.csv
+*.xlsx
+*.xls
+*.parquet
+data/
+Data/
+uploads/
+**/Latest Weekly Data/
+
+# Allow repo config files that happen to be CSV-free
+!requirements.txt
+
+# ── Forecast outputs ─────────────────────────────────────────────────────────
+final_forecast/
+model_eval/
+submission/
+outputs/
+*.png
+*.pdf
+*.tmp_*
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# ── Editors / OS ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
